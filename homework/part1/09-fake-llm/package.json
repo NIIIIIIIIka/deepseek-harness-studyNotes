@@ -1,0 +1,23 @@
+{
+  "name": "part1-09-fake-llm-homework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx/esm launcher.ts",
+    "check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "~4.0.4",
+    "@deepseek-ai/cordis-plugin-include": "~1.0.9",
+    "@deepseek-ai/cordis-plugin-loader": "~1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
